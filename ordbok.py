@@ -17,7 +17,7 @@ def vis_alle():
 
 def legg_til():
     nye = {}
-    nye["navn"] = input("skriv inn ditt navn: ")
+    nye["navn"] = input("skriv inn ditt navn i bare små bokstaver: ")
     nye["nummer"] = int(input("skriv inn ditt nummer: "))
     print(f"{nye} ble lagt til i telefonboken")
     return telefonbok.append(nye)
