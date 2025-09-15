@@ -5,11 +5,13 @@ telefonbok.append({"navn": "ola", "nummer": 84083049})
 telefonbok.append({"navn": "per", "nummer": 78298327})
 
 
+
 def vis_alle():
     for person in telefonbok:
         print(person)
 
 vis_alle()
+
 
 def leg_til():
     nye = {}
@@ -22,3 +24,16 @@ def leg_til():
 
 leg_til()
 print(telefonbok)
+
+
+def sok():
+    navn = input("skriv inn navnet du vil søke etter: ")
+    for n in telefonbok:
+        if n["navn"] == navn:
+            print(n)
+            break
+        else:
+            print("dette navnet finnes ikke")
+            break
+
+sok()
