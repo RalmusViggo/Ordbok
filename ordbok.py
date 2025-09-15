@@ -30,9 +30,14 @@ def legg_til():
 def sok():
     navn = input("skriv inn navnet du vil søke etter: ")
     for n in telefonbok:
-        if n["navn"] == navn.lower():
+        if n["navn".lower()] == navn.lower():
             print(n)
             break
+    else:
+        print("Dette navnet er ikke i telefonboken.")
+            
+            
+            
 
 
 
