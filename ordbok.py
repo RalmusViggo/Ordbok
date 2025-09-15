@@ -1,3 +1,3 @@
 telefonbok = [
-    {"person1"}
+    
 ]
