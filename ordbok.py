@@ -33,8 +33,7 @@ def sok():
         if n["navn"] == navn.lower():
             print(n)
             break
-        else:
-            break
+
 
 
 def w():
