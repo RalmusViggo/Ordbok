@@ -8,5 +8,6 @@ dette programmet lar deg:
 4. avslutte programmet.
 
 #hvordan kjøre programmet:
+
 du gjør dette ved å kjøre det gjennom enten terminalen, eller et program som kan kjøre python filer.
 
